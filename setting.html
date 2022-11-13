@@ -44,9 +44,9 @@
         </div>
     </header>
     <div class="container mx-auto px-24">
-        <p class="text-2xl font-bold text-gray-700 mt-6">Pengaturan</p>
-        <div class="grid grid-cols-12 gap-3 mt-3">
-            <div class="col-span-3 flex flex-col gap-1">            
+        <div class="grid grid-cols-12 gap-3 mt-6">
+            <div class="col-span-3 flex flex-col gap-1">           
+                <p class="text-2xl font-bold text-gray-700 mb-3">Pengaturan</p>
                 <div class="bg-green-500 p-3 text-white font-bold shadow rounded flex gap-2 text-xl items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                         <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd" />
@@ -73,7 +73,21 @@
                 </div>
             </div>
             <div class="col-span-9">
-                <div class="bg-white shadow rounded p-5">a</div>
+                <div class="bg-white shadow rounded p-5">
+                    <div class="grid grid-cols-2 gap-3">
+                        <div>
+                            <p>Nama Lengkap</p>
+                            <input class="bg-gray-200 rounded w-full p-3 mt-2" type="text" placeholder="Nama Lengkap Anda">
+                        </div>
+                        <div>
+                            <p>Email</p>
+                            <input class="bg-gray-200 rounded w-full p-3 mt-2" type="text" placeholder="Email Anda">
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <button class="bg-green-500 font-bold text-white py-3 px-4 rounded mt-3 ml-auto">Simpan</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
