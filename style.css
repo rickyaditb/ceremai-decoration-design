@@ -964,6 +964,10 @@ video {
   gap: 2rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .overflow-y-auto {
   overflow-y: auto;
 }
@@ -1380,6 +1384,14 @@ video {
   padding-left: 2.75rem;
 }
 
+.pr-24 {
+  padding-right: 6rem;
+}
+
+.pr-32 {
+  padding-right: 8rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1502,6 +1514,11 @@ video {
 .text-red-700 {
   --tw-text-opacity: 1;
   color: rgb(185 28 28 / var(--tw-text-opacity));
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .line-through {
